@@ -1,11 +1,13 @@
 import React from 'react'
+import Founders from '../components/Founders'
 
-import Landing from '../components/Landing'
+import Intro from '../components/Intro'
 
 export default function Home() {
   return (
     <>
-      <Landing />
+      <Intro />
+      <Founders />
     </>
   )
 }

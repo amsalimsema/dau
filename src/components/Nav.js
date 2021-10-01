@@ -1,9 +1,16 @@
 import React, { useState } from 'react'
-import { FaBars, FaTimes } from 'react-icons/fa'
+import styled from 'styled-components'
 import { IconContext } from 'react-icons/lib'
 import logo from '../Images/small.png'
-
 import '../App.css'
+import {
+  FaBars,
+  FaTimes,
+  FaWhatsapp,
+  FaFacebookF,
+  FaYoutube,
+  FaInstagram,
+} from 'react-icons/fa'
 
 import {
   Nav,
@@ -15,8 +22,6 @@ import {
   NavLinks,
   Drawer,
 } from './NavElements'
-
-//import { Tube, Tsup, Gram, FB } from './Footer'
 
 export default function NavTop() {
   // open and close drawer
@@ -48,15 +53,6 @@ export default function NavTop() {
                   alt="logo"
                   style={{ height: '60px', width: '60px' }}
                 />
-                <span
-                  style={{
-                    fontWeight: 'bold',
-                    letterSpacing: '1px',
-                    fontSize: '1.6rem',
-                  }}
-                >
-                  &nbsp;DAU
-                </span>
               </NavLogo>
 
               <MobileIcon onClick={handleClick}>
@@ -102,9 +98,9 @@ export default function NavTop() {
                 </NavItem>
 
                 <Drawer>
-                  {/* <div>
+                  <div>
                     <a
-                      href="https://wa.me/256760721071/?text=Hello Maaemo Enterprises"
+                      href="https://wa.me/256760721071/?text=Hello Dau"
                       target="_blank"
                       rel="noopener noreferrer"
                       title="WhatsApp"
@@ -141,7 +137,7 @@ export default function NavTop() {
                     >
                       <Gram style={{ width: '1.5rem', height: '1.5rem' }} />
                     </a>
-                  </div> */}
+                  </div>
                 </Drawer>
               </NavMenu>
             </NavbarContainer>
@@ -151,3 +147,29 @@ export default function NavTop() {
     </>
   )
 }
+
+// Side Drawer Social Icons
+export const Tsup = styled(FaWhatsapp)`
+  color: #ffe8d6;
+  &:hover {
+    color: #6b705c;
+  }
+`
+export const FB = styled(FaFacebookF)`
+  color: #ffe8d6;
+  &:hover {
+    color: #6b705c;
+  }
+`
+export const Tube = styled(FaYoutube)`
+  color: #ffe8d6;
+  &:hover {
+    color: #6b705c;
+  }
+`
+export const Gram = styled(FaInstagram)`
+  color: #ffe8d6;
+  &:hover {
+    color: #6b705c;
+  }
+`

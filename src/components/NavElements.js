@@ -7,7 +7,8 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
+  font-size: 1.3rem;
+  font-family: 'Georama', sans-serif;
 `
 
 export const NavbarContainer = styled(Container)`
@@ -29,10 +30,8 @@ export const NavLogo = styled(Link)`
   color: #fff;
   &:hover {
     color: #fff;
-    text-decoration: none;s
+    text-decoration: none;
   }
- 
-  
 `
 
 export const MobileIcon = styled.div`
@@ -91,6 +90,7 @@ export const NavItem = styled.li`
   }
 `
 
+// ignore
 export const NavItemBtn = styled.li`
   @media screen and (max-width: 1024px) {
     display: flex;
@@ -100,7 +100,7 @@ export const NavItemBtn = styled.li`
     // height: 120px;
   }
 `
-// nav links maaemo
+
 export const NavLinks = styled.a`
   color: #fff;
   display: flex;
@@ -119,7 +119,7 @@ export const NavLinks = styled.a`
     }
   }
 `
-
+// ignore
 export const NavBtnLink = styled(Link)`
   display: flex;
   justify-content: center;
@@ -132,7 +132,7 @@ export const NavBtnLink = styled(Link)`
   outline: none;
   margin-left: 3rem;
 `
-// drawer only for Maaemo
+// drawer only for small devices
 
 export const Drawer = styled.div`
   text-align: start;

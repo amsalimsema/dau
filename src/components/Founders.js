@@ -7,7 +7,7 @@ import bg from '../Images/pattern.svg'
 import team from '../Images/team.jpg'
 import { Tube, Tsup, Gram, FB } from './Nav'
 
-const Main = styled.div`
+export const Main = styled.div`
   font-family: 'Georama', sans-serif;
   cursor: pointer;
   //   position: relative;
@@ -18,8 +18,21 @@ const Main = styled.div`
   background-color: #182330;
 `
 
-const Wrapper = styled(Container)`
+export const Wrapper = styled(Container)`
   padding: 5rem 0;
+  @media screen and (max-width: 650px) {
+    width: 95vw;
+  }
+  > .info {
+    > h1,
+    h5 {
+      color: snow;
+    }
+    > p {
+      color: gray;
+      font-size: 1.3rem;
+    }
+  }
 `
 const Box = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
@@ -37,6 +50,9 @@ const Box = styled.div`
     text-decoration: none;
     color: black;
   }
+  @media screen and (max-width: 650px) {
+    margin-bottom: 2rem;
+  }
 `
 
 export default function Founders() {
@@ -44,10 +60,33 @@ export default function Founders() {
     <>
       <Main>
         <Wrapper>
+          <div className="info">
+            <h1>Dancers' Association of Uganda (DAU)</h1>
+            <hr style={{ backgroundColor: 'gray' }} />
+            <p>
+              DAU is a non-profit organization registered and established in
+              2021 to unite all professional dancers in Uganda with a common
+              goal of providing aplatform to express themselves with one voice.
+              Membership is open to all people who are desirous of joining this
+              organization provided they subscribe to the objectives of the
+              association. DAU is heavily affiliated to National Cultural
+              Forum(NCF).
+            </p>
+            <h5>Founding Members.</h5>
+            <p>
+              DAU is founded by professional dancers, managers who are all
+              deeply rooted in the dance industry and are mutually pushing for
+              the advancement of the profession to a greater audience.
+            </p>
+          </div>
           <Row>
             <Col md={3}>
               <Box>
-                <img src={team} alt="team" style={{ width: '100%' }} />
+                <img
+                  src={team}
+                  alt="team"
+                  style={{ width: '100%', marginBottom: '0.5rem' }}
+                />
                 <h5>Nuruh Nankanja</h5>
                 <p className="title">Co-Founder</p>
                 <p>Professional Dancer</p>
@@ -95,7 +134,11 @@ export default function Founders() {
             </Col>
             <Col md={3}>
               <Box>
-                <img src={team} alt="team" style={{ width: '100%' }} />
+                <img
+                  src={team}
+                  alt="team"
+                  style={{ width: '100%', marginBottom: '0.5rem' }}
+                />
                 <h5>Edgar Matte</h5>
                 <p className="title">Co-Founder</p>
                 <p>Professional Dancer</p>
@@ -143,7 +186,11 @@ export default function Founders() {
             </Col>
             <Col md={3}>
               <Box>
-                <img src={team} alt="team" style={{ width: '100%' }} />
+                <img
+                  src={team}
+                  alt="team"
+                  style={{ width: '100%', marginBottom: '0.5rem' }}
+                />
                 <h5>Joseph Segawa</h5>
                 <p className="title">Co-Founder</p>
                 <p>Professional Dancer</p>
@@ -191,7 +238,11 @@ export default function Founders() {
             </Col>
             <Col md={3}>
               <Box>
-                <img src={team} alt="team" style={{ width: '100%' }} />
+                <img
+                  src={team}
+                  alt="team"
+                  style={{ width: '100%', marginBottom: '0.5rem' }}
+                />
                 <h5>Dauda Kavuma</h5>
                 <p className="title">Co-Founder</p>
                 <p>Founder,Inspire Ghetto Kids</p>

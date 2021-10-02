@@ -36,7 +36,7 @@ const WrapperBox = styled.div`
   height: 100vh;
 `
 const Inner = styled.div`
-  color: white;
+  color: #000000;
   text-align: center;
   padding-top: 3rem;
 
@@ -71,7 +71,7 @@ const Chev = styled(BsChevronDoubleDown)`
   transition: 0.8s all linear;
   &:hover {
     transform: translateY(5px);
-    color: #000000;
+    color: #fff;
   }
 `
 

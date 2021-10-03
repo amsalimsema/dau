@@ -6,9 +6,11 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Button from 'react-bootstrap/Button'
 import { Main } from './Founders'
+import { FaMapMarker, FaPhoneAlt } from 'react-icons/fa'
+import { Gram, Tube, Tsup, FB } from './Nav'
 
 const Wrapper = styled(Container)`
-  padding: 1rem 0;
+  padding: 2rem 0 1rem 0;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   border: none;
 `
@@ -32,8 +34,74 @@ export default function Footer() {
         <Wrapper>
           <h1 style={{ color: 'snow', textAlign: 'center' }}>Get in touch.</h1>
 
-          <Row>
-            <Col md={6}></Col>
+          <Row className="pt-3">
+            <Col md={6}>
+              <div
+                className="text-center"
+                style={{
+                  color: '#fff',
+                  fontSize: '1.125rem',
+                  lineHeight: '2rem',
+                }}
+              >
+                <p>
+                  <FaMapMarker />
+                  &nbsp;&nbsp;Makindye Division
+                  <br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Salama rd - Kalani Zone
+                  <br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P O box 21347, kampala -
+                  Uganda
+                </p>
+
+                <p>
+                  <FaPhoneAlt />
+                  &nbsp;&nbsp;0782 442 281
+                  <br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0782 442 281
+                </p>
+              </div>
+              <div className="text-center" style={{ paddingTop: '5rem' }}>
+                <a
+                  href="https://wa.me/256760721071/?text=Hello Dau"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="WhatsApp"
+                >
+                  <Tsup style={{ width: '1.5rem', height: '1.5rem' }} />
+                </a>
+
+                <a
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Facebook"
+                  style={{ paddingLeft: '1rem' }}
+                >
+                  <FB style={{ width: '1.5rem', height: '1.5rem' }} />
+                </a>
+
+                <a
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="YouTube"
+                  style={{ paddingLeft: '1rem' }}
+                >
+                  <Tube style={{ width: '1.5rem', height: '1.5rem' }} />
+                </a>
+
+                <a
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Instagram"
+                  style={{ paddingLeft: '1rem' }}
+                >
+                  <Gram style={{ width: '1.5rem', height: '1.5rem' }} />
+                </a>
+              </div>
+            </Col>
             <Col md={6}>
               {/* form */}
               <Form
@@ -114,8 +182,9 @@ export default function Footer() {
               {/* end form */}
             </Col>
           </Row>
-
-          <p className="text-center text-white pt-5">
+        </Wrapper>
+        <Wrapper>
+          <p className="text-center text-white pt-3">
             &copy;{new Date().getFullYear()}&nbsp;Dancers' Association of
             Uganda.
           </p>

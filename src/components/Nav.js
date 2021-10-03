@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import { IconContext } from 'react-icons/lib'
-import logo from '../Images/small.png'
+import logo from '../Images/logo192.png'
 import '../App.css'
 import {
   FaBars,

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Container from 'react-bootstrap/Container'
-import big from '../Images/small.png'
+import big from '../Images/logo801.png'
 import { BsChevronDoubleDown } from 'react-icons/bs'
 
 const Main = styled.div`
@@ -48,8 +48,10 @@ const Inner = styled.div`
       font-size: 4rem;
     }
     img {
-      width: auto;
-      height: auto;
+      // width: auto;
+      // height: auto;
+      width: 115px;
+      height: 115px;
     }
   }
   @media screen and (min-width: 321px) and (max-width: 767px) {

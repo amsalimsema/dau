@@ -88,7 +88,7 @@ export default function Intro() {
                 <p>
                   <img src={big} alt="big" />
                 </p>
-                <h1>DANCERS' ASSOCIATION UGANDA</h1>
+                <h1>DANCERS' ASSOCIATION OF UGANDA</h1>
                 <h1 style={{ fontFamily: "'Ephesis', cursive" }}>
                   -&nbsp;Transcending dancing into a profession&nbsp;-
                 </h1>

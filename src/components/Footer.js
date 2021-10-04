@@ -36,73 +36,6 @@ export default function Footer() {
 
           <Row className="pt-3">
             <Col md={6}>
-              <div
-                className="text-center"
-                style={{
-                  color: '#fff',
-                  fontSize: '1.125rem',
-                  lineHeight: '2rem',
-                }}
-              >
-                <p>
-                  <FaMapMarker />
-                  &nbsp;&nbsp;Makindye Division
-                  <br />
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Salama rd - Kalani Zone
-                  <br />
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P O box 21347, kampala -
-                  Uganda
-                </p>
-
-                <p>
-                  <FaPhoneAlt />
-                  &nbsp;&nbsp;0782 442 281
-                  <br />
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0782 442 281
-                </p>
-              </div>
-              <div className="text-center" style={{ paddingTop: '5rem' }}>
-                <a
-                  href="https://wa.me/256760721071/?text=Hello Dau"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="WhatsApp"
-                >
-                  <Tsup style={{ width: '1.5rem', height: '1.5rem' }} />
-                </a>
-
-                <a
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Facebook"
-                  style={{ paddingLeft: '1rem' }}
-                >
-                  <FB style={{ width: '1.5rem', height: '1.5rem' }} />
-                </a>
-
-                <a
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="YouTube"
-                  style={{ paddingLeft: '1rem' }}
-                >
-                  <Tube style={{ width: '1.5rem', height: '1.5rem' }} />
-                </a>
-
-                <a
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Instagram"
-                  style={{ paddingLeft: '1rem' }}
-                >
-                  <Gram style={{ width: '1.5rem', height: '1.5rem' }} />
-                </a>
-              </div>
-            </Col>
-            <Col md={6}>
               {/* form */}
               <Form
                 noValidate
@@ -114,7 +47,7 @@ export default function Footer() {
                 method="POST"
                 id="health_form"
                 autoComplete="off"
-                style={{ color: '#fff', padding: '0 1rem 0 1rem' }}
+                style={{ color: '#fff', padding: '0 1rem 1rem 1rem' }}
               >
                 <input type="hidden" name="_next" value="" />
                 <input type="hidden" name="_captcha" value="false" />
@@ -180,6 +113,74 @@ export default function Footer() {
                 </Button>
               </Form>
               {/* end form */}
+            </Col>
+            <Col md={6}>
+              <div
+                className="text-center"
+                style={{
+                  color: '#fff',
+                  fontSize: '1.125rem',
+                  lineHeight: '2rem',
+                  paddingTop: '2rem',
+                }}
+              >
+                <p>
+                  <FaMapMarker />
+                  &nbsp;&nbsp;Makindye Division
+                  <br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Salama rd - Kalani Zone
+                  <br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P O box 21347, kampala -
+                  Uganda
+                </p>
+
+                <p>
+                  <FaPhoneAlt />
+                  &nbsp;&nbsp;0782 442 281
+                  <br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0782 442 281
+                </p>
+              </div>
+              <div className="text-center" style={{ padding: '5rem' }}>
+                <a
+                  href="https://wa.me/256760721071/?text=Hello Dau"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="WhatsApp"
+                >
+                  <Tsup style={{ width: '1.5rem', height: '1.5rem' }} />
+                </a>
+
+                <a
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Facebook"
+                  style={{ paddingLeft: '1rem' }}
+                >
+                  <FB style={{ width: '1.5rem', height: '1.5rem' }} />
+                </a>
+
+                <a
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="YouTube"
+                  style={{ paddingLeft: '1rem' }}
+                >
+                  <Tube style={{ width: '1.5rem', height: '1.5rem' }} />
+                </a>
+
+                <a
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Instagram"
+                  style={{ paddingLeft: '1rem' }}
+                >
+                  <Gram style={{ width: '1.5rem', height: '1.5rem' }} />
+                </a>
+              </div>
             </Col>
           </Row>
         </Wrapper>

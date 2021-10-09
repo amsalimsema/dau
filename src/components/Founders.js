@@ -144,7 +144,7 @@ export default function Founders() {
                   alt="wembley"
                   style={{ width: '100%', marginBottom: '0.5rem' }}
                 />
-                <h5>Edgar Matte</h5>
+                <h5>Moses Kyeyune</h5>
                 <p className="title">Co-Founder</p>
                 <p>Professional Dancer</p>
                 <div style={{ padding: '20px 0' }}>
@@ -303,7 +303,7 @@ export default function Founders() {
                   alt="eddy"
                   style={{ width: '100%', marginBottom: '0.5rem' }}
                 />
-                <h5>Moses Kyeyune</h5>
+                <h5>Edgar Matte</h5>
                 <p className="title">Co-Founder</p>
 
                 <div style={{ padding: '20px 0' }}>

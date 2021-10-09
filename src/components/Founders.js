@@ -4,7 +4,11 @@ import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import bg from '../Images/pattern.svg'
-import team from '../Images/team.jpg'
+import dauda from '../Images/dauda.jpg'
+import nunu from '../Images/nunu.jpg'
+import wembley from '../Images/wembley.jpg'
+import jose from '../Images/jose.jpg'
+import eddy from '../Images/eddy.jpg'
 import { Tube, Tsup, Gram, FB } from './Nav'
 
 export const Main = styled.div`
@@ -36,7 +40,8 @@ export const Wrapper = styled(Container)`
 `
 const Box = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
-  margin: auto;
+  margin-bottom: 2rem;
+
   text-align: center;
   > h5,
   p {
@@ -83,8 +88,8 @@ export default function Founders() {
             <Col md={3}>
               <Box>
                 <img
-                  src={team}
-                  alt="team"
+                  src={nunu}
+                  alt="nunu"
                   style={{ width: '100%', marginBottom: '0.5rem' }}
                 />
                 <h5>Nuruh Nankanja</h5>
@@ -135,8 +140,8 @@ export default function Founders() {
             <Col md={3}>
               <Box>
                 <img
-                  src={team}
-                  alt="team"
+                  src={wembley}
+                  alt="wembley"
                   style={{ width: '100%', marginBottom: '0.5rem' }}
                 />
                 <h5>Edgar Matte</h5>
@@ -187,8 +192,8 @@ export default function Founders() {
             <Col md={3}>
               <Box>
                 <img
-                  src={team}
-                  alt="team"
+                  src={jose}
+                  alt="jose"
                   style={{ width: '100%', marginBottom: '0.5rem' }}
                 />
                 <h5>Joseph Segawa</h5>
@@ -239,8 +244,8 @@ export default function Founders() {
             <Col md={3}>
               <Box>
                 <img
-                  src={team}
-                  alt="team"
+                  src={dauda}
+                  alt="dauda"
                   style={{ width: '100%', marginBottom: '0.5rem' }}
                 />
                 <h5>Dauda Kavuma</h5>
@@ -262,6 +267,51 @@ export default function Founders() {
                     rel="noopener noreferrer"
                     title="Facebook"
                     style={{ paddingLeft: '1rem' }}
+                  >
+                    <FB style={{ width: '1.5rem', height: '1.5rem' }} />
+                  </a>
+
+                  <a
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="YouTube"
+                    style={{ paddingLeft: '1rem' }}
+                  >
+                    <Tube style={{ width: '1.5rem', height: '1.5rem' }} />
+                  </a>
+
+                  <a
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Instagram"
+                    style={{ paddingLeft: '1rem' }}
+                  >
+                    <Gram style={{ width: '1.5rem', height: '1.5rem' }} />
+                  </a>
+                </div>
+              </Box>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col md={3}>
+              <Box>
+                <img
+                  src={eddy}
+                  alt="eddy"
+                  style={{ width: '100%', marginBottom: '0.5rem' }}
+                />
+                <h5>Moses Kyeyune</h5>
+                <p className="title">Co-Founder</p>
+
+                <div style={{ padding: '20px 0' }}>
+                  <a
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Facebook"
                   >
                     <FB style={{ width: '1.5rem', height: '1.5rem' }} />
                   </a>

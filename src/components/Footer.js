@@ -126,9 +126,10 @@ export default function Footer() {
               >
                 <p>
                   <FaMapMarker />
-                  &nbsp;&nbsp;Makindye Division
+                  &nbsp;&nbsp;Makindye, Barracks Zone
                   <br />
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Salama rd - Kalani Zone
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Next to Shell Makindye
+                  Traffic Lights
                   <br />
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P O box 21347, kampala -
                   Uganda
@@ -136,12 +137,14 @@ export default function Footer() {
 
                 <p>
                   <FaPhoneAlt />
-                  &nbsp;&nbsp;0782 442 281
+                  &nbsp;&nbsp;0703 328 758
                   <br />
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0782 442 281
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0704 363 320
+                  <br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0771 850 668
                 </p>
               </div>
-              <div className="text-center" style={{ padding: '5rem' }}>
+              <div className="text-center" style={{ padding: '3rem' }}>
                 <a
                   href="https://wa.me/256760721071/?text=Hello Dau"
                   target="_blank"

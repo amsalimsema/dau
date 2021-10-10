@@ -9,9 +9,15 @@ export default function Home() {
   return (
     <>
       <Intro />
-      <Founders />
-      <Work />
-      <Footer />
+      <div id="about">
+        <Founders />
+      </div>
+      <div id="work">
+        <Work />
+      </div>
+      <div id="contact">
+        <Footer />
+      </div>
     </>
   )
 }

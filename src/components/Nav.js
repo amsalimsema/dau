@@ -62,7 +62,7 @@ export default function NavTop() {
               <NavMenu onClick={handleClick} click={click}>
                 <NavItem>
                   <NavLinks
-                    href="/"
+                    href="/#work"
                     onClick={closeMobileMenu}
                     style={{ textDecoration: 'none' }}
                   >
@@ -72,6 +72,8 @@ export default function NavTop() {
                 <NavItem>
                   <NavLinks
                     href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     onClick={closeMobileMenu}
                     style={{ textDecoration: 'none' }}
                   >
@@ -80,7 +82,7 @@ export default function NavTop() {
                 </NavItem>
                 <NavItem>
                   <NavLinks
-                    href="/"
+                    href="/#about"
                     onClick={closeMobileMenu}
                     style={{ textDecoration: 'none' }}
                   >
@@ -89,7 +91,7 @@ export default function NavTop() {
                 </NavItem>
                 <NavItem>
                   <NavLinks
-                    href="/"
+                    href="/#contact"
                     onClick={closeMobileMenu}
                     style={{ textDecoration: 'none' }}
                   >

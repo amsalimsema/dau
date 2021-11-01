@@ -1,5 +1,6 @@
 {
   "name": "dau",
+  "homepage": "https://www.dancersassociationug.org/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
